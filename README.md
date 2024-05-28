@@ -1,2 +1,2 @@
-# Projeto-Login-Helper
- Formulário html, css e javascript.
+# Responsive login form
+ Form html, css and javascript.
