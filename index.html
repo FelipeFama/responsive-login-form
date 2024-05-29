@@ -1,19 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login helper</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="js/index.js" defer></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
-    <script src="https://kit.fontawesome.com/d18ce1bc58.js" crossorigin="anonymous" defer></script>
-  </head>
-  <body>
-  
-    </main>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Login Form</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <script src="./assets/js/index.js" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet">
+</head>
+
+<body>
+
+  <main class="l-form">
+    <div class="shape1"></div>
+    <div class="shape2"></div>
+    <section class="form">
+      <img src="./assets/img/authentication.svg" alt="authentication" class="form__img" />
+      <form action="" class="form__content">
+        <h1 class="form__title">Welcome</h1>
+        <article class="form__div form__div-one">
+          <aside class="form__icon">
+            <i class="bx bx-user-cicle"></i>
+          </aside>
+          <aside class="form__div-input">
+            <label for="" class="form__label">Username</label>
+            <input type="text" class="class__input" />
+          </aside>
+        </article>
+        <article class="form__div">
+          <aside class="form__icon">
+            <i class="bx bx-block"></i>
+          </aside>
+          <aside class="form__div-input">
+            <label for="" class="form__label">Password</label>
+            <input type="password" class="form__input">
+          </aside>
+        </article>
+        <a href="#" class="form__forgot">Forgot Password?</a>
+        <input type="submit" class="form__button" value="login">
+        <article class="form__social">
+          <span class="form__social-text">Our login with</span>
+          <a href="#" class="form__social-icon">
+            <i class="bx bxl-facebook"></i>
+          </a>
+          <a href="#" class="form__social-icon">
+            <i class="bx bxl-google"></i>
+          </a>
+          <a href="#" class="form__social-icon">
+            <bx class="bx bxl-instagram"></bx>
+          </a>
+        </article>
+      </form>
+    </section>
+  </main>
+</body>
+
 </html>
