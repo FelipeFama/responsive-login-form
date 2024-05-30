@@ -79,3 +79,35 @@ img {
   background: linear-gradient(180deg, var(--first-color) 0%, rgba(196, 196, 196, 0) 100%);
   transform: rotate(180deg);
 }
+
+/*=== Form ===*/
+.form {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.form__content {
+  width: 290px;
+}
+
+.form__img {
+  display: none;
+}
+
+.form__title {
+  font-size: var(--big-font-size);
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.form__div {
+  position: relative;
+  display: grid;
+  grid-template-columns: 7% 93%;
+  margin-bottom: 1rem;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid var(--text-color);
+}
